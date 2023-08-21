@@ -18,6 +18,9 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation group: 'org.xhtmlrenderer', name: 'flying-saucer-core', version: getProperty('flyingsaucer.version')
+	implementation group: 'com.itextpdf', name: 'html2pdf', version: '5.0.1'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
