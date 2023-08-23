@@ -12,14 +12,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.nio.file.Files;
 
 public class XhtmlToPdfConverterTest {
 
-    public static final String BASE_URI = "/home/phucosg/workspace/epub-to-pdf-converter/src/test/resources/git-ignore-this/output/OEBPS";
+    public static final String BASE_URI = "src/test/resources/git-ignore-this/output/OEBPS";
 
-    public static final String htmlFileSrc = "/home/phucosg/workspace/epub-to-pdf-converter/src/test/resources/git-ignore-this/output/OEBPS/ch01.xhtml";
-    public static final String PDF_OUTPUT_FOLDER =  "/home/phucosg/workspace/epub-to-pdf-converter/src/test/resources/git-ignore-this/result";
+    public static final String htmlFileSrc = "src/test/resources/git-ignore-this/output/OEBPS/ch01.xhtml";
+    public static final String PDF_OUTPUT_FOLDER =  "src/test/resources/git-ignore-this/result";
 
     private ConverterProperties defaultConverterProperties() {
         ConverterProperties properties = new ConverterProperties();

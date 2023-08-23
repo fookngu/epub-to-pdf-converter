@@ -14,8 +14,8 @@ public class UnzipTest {
 
     @Test
     public void testUnzipFile() {
-        String zipFilePath = "/home/phucosg/workspace/epub-to-pdf-converter/src/test/resources/git-ignore-this/core-java2.epub"; // Specify the path to your zip file
-        String destDirectory = "/home/phucosg/workspace/epub-to-pdf-converter/src/test/resources/git-ignore-this/output"; // Specify the destination folder
+        String zipFilePath = "src/test/resources/git-ignore-this/demo.epub"; // Specify the path to your zip file
+        String destDirectory = "src/test/resources/git-ignore-this/output"; // Specify the destination folder
 
         try {
             unzip(zipFilePath, destDirectory);
